@@ -88,7 +88,7 @@ loop:
 		}
 		queueAndTask, err := redis.Strings(conn.Do("BLPOP", redisArgs...))
 		if err != nil {
-			logrus.Errorln(err)
+			// logrus.Errorln(err)
 			c.concurrency <- token
 			continue
 		}
