@@ -37,8 +37,8 @@ import (
 	"flag"
 	"time"
 
-	"github.com/jiajunhuang/toq/consumer"
-	"github.com/jiajunhuang/toq/task"
+	"github.com/romwod/toq/consumer"
+	"github.com/romwod/toq/task"
 	"github.com/sirupsen/logrus"
 )
 
@@ -84,8 +84,8 @@ package main
 import (
 	"flag"
 
-	"github.com/jiajunhuang/toq/producer"
-	"github.com/jiajunhuang/toq/task"
+	"github.com/romwod/toq/producer"
+	"github.com/romwod/toq/task"
 	"github.com/sirupsen/logrus"
 )
 
@@ -103,4 +103,4 @@ func main() {
 }
 ```
 
-If you want to learn more, please visit https://github.com/jiajunhuang/toq
+If you want to learn more, please visit https://github.com/romwod/toq

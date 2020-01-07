@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/jiajunhuang/toq/task"
+	"github.com/romwod/toq/task"
 	"github.com/sirupsen/logrus"
 )
 

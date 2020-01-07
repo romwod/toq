@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/jiajunhuang/toq/producer"
-	"github.com/jiajunhuang/toq/task"
+	"github.com/romwod/toq/task"
+	"github.com/romwod/toq/producer"
 	"github.com/sirupsen/logrus"
 )
 

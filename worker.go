@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/jiajunhuang/toq/consumer"
-	"github.com/jiajunhuang/toq/task"
+	"github.com/romwod/toq/task"
+	"github.com/romwod/toq/consumer"
 	"github.com/sirupsen/logrus"
 )
 

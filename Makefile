@@ -5,7 +5,7 @@ FMT=go fmt
 all: clean fmt main worker
 
 fmt:
-	$(FMT) github.com/jiajunhuang/toq/...
+	$(FMT) github.com/romwod/toq/...
 
 main:
 	$(BUILD) $(FLAGS) -o main main.go utils.go

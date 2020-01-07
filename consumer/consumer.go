@@ -1,7 +1,7 @@
 package consumer
 
 import (
-	"github.com/jiajunhuang/toq/task"
+	"github.com/romwod/toq/task"
 )
 
 type Dequeuer interface {
