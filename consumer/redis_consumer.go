@@ -78,7 +78,7 @@ loop:
 		}
 		select {
 		case token = <-c.concurrency:
-			logrus.Debugf("got token %d", token)
+			// logrus.Debugf("got token %d", token)
 			c.sleepy = 0
 		default:
 			c.sleepy++
